@@ -1,0 +1,31 @@
+{
+  "name": "cdn-teleport",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "lib/index.js",
+  "scripts": {
+    "png": "tsx scripts/png2webp.ts",
+    "poster": "tsx scripts/extract-poster.ts",
+    "last-frame": "tsx scripts/extract-poster.ts --last",
+    "release": "./release.sh patch \"update\""
+  },
+  "homepage": "https://monet.vision/",
+  "author": "https://monet.vision/",
+  "repository": {
+    "type": "git",
+    "url": "https://monet.vision/"
+  },
+  "bugs": {
+    "url": "https://monet.vision/"
+  },
+  "files": [
+    "files"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "sharp": "^0.34.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
